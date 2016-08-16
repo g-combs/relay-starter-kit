@@ -188,7 +188,7 @@ var CheckHidingSpotForTreasureMutation = mutationWithClientMutationId({
 });
 
 /**
- * Finally, construct the schema (whose starting query type is the query type defined above) and export it.
+ * Construct the schema (whose starting query type is the query type defined above) and export it.
  */
 export var Schema = new GraphQLSchema({
     query: queryType,
